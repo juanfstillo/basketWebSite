@@ -5,7 +5,8 @@
 }
 
 body{
-    font-family: 'open sans';
+    font-family: lato, sans-serif;
+    /* font-size: 2rem; */
 }
 .contenedor{
     padding: 60px 0;
@@ -15,8 +16,8 @@ body{
     overflow: hidden;    
 }
 .titulo{
-    color: #642a73;
-    font-size: 30px;
+    color: #fd7e14;
+    font-size: 80px;
     text-align: center;
     margin-bottom: 60px;
 }
@@ -25,8 +26,8 @@ header{
     width: 100%;
     height: 800px;
     background: #FF0099;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, hsla(324, 100%, 2%, 0.875), hsla(330, 25%, 3%, 0.609)), url(../images/basquet.jpg);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsla(330, 10%, 4%, 0.629), hsla(330, 25%, 3%, 0.609)), url(../images/basquet.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, hsla(324, 100%, 2%, 0.875), hsla(330, 25%, 3%, 0.609)), url(../images/home.jpg);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(330, 10%, 4%, 0.629), hsla(330, 25%, 3%, 0.609)), url(../images/home.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     background-attachment: fixed;
     position: relative;
@@ -78,6 +79,7 @@ header .navbar {
 .contenedor-sobre-nosotros{
     display: flex;
     justify-content: space-evenly;
+    font-size: 1.5rem;
 }
 .imagen-about-us{
     width: 48%;
@@ -280,8 +282,11 @@ header .navbar {
         font-size: 20px;
     }
     /* About us */
-    main .sobre-nosotros{
-        padding: 30px 0 60px 0;
+    .sobre-nosotros{
+        padding: 30px 0 60px 0;        
+    }
+    .sobre-nosotros p {
+        font-size: 4rem;
     }
     .imagen-about-us{
         margin-bottom: 60px;
@@ -306,25 +311,7 @@ header .navbar {
         height: 90px;
     }
     /*  footer */
-    .contenedor-footer{
-        flex-direction: column;
-        border: none;
-    }
-    .content-foo{
-        margin-bottom: 20px;
-        text-align: center;
-    }
-    .content-foo h4{
-        border: none;
-    }
-    .content-foo P{
-        color: #CCC;
-        border-bottom: 1px solid #f2f2f2;
-        padding-bottom: 20px;
-    }
-    .titulo-final{
-        font-size: 20px;
-    }
+    
 }
 
 /* Nuevo */
