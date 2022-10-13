@@ -2,10 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+    
 }
 
 body{
     font-family: lato, sans-serif;
+    background: #272B30;  
     /* font-size: 2rem; */
 }
 .contenedor{
@@ -13,7 +16,11 @@ body{
     width: 90%;
     max-width: 1000px;
     margin: auto;
-    overflow: hidden;    
+    overflow: hidden;
+    background: #272B30;    
+}
+.main-index{
+    background: #272B30;    
 }
 .titulo{
     color: #fd7e14;
@@ -91,6 +98,11 @@ header .navbar {
     display: flex;
     justify-content: space-evenly;
     font-size: 1.5rem;
+    color: #AAAAAA;
+    background:#272B30;
+}
+.nuestras-actividades{
+    background:#272B30 ;
 }
 .imagen-about-us{
     width: 48%;
@@ -120,7 +132,7 @@ header .navbar {
 }
 /* Galeria */
 .portafolio{
-    background:#f2f2f2;
+    background:#272B30 ;
 }
 .galeria-port{
     display: flex;
@@ -375,4 +387,8 @@ header .navbar {
     text-align: center;
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
+  }
+
+  #titulo-card{
+    color:#272B30;
   }
